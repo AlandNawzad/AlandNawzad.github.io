@@ -1,0 +1,98 @@
+
+@media(max-width:1200px) {
+    
+    #desktop-nav{
+        display: none;
+    }
+
+    #humberger-nav{
+        display: flex;
+    }
+    
+    .profile {
+        flex-direction: column;
+        gap: 0;
+        
+    }
+    #profile{
+        margin-bottom: 6rem;
+    }
+
+    #about , #experience{
+        margin-bottom: 15rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    section{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .pfp{
+        width: 300px;
+    }
+
+    .about-containers{
+        flex-direction: column;
+    }
+    .about-header-text {
+        margin-bottom: 1rem;
+    }
+    section{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .contact-nav-links{
+        flex-direction: column;
+    }
+    
+    
+
+}
+
+@media(max-width:800px){
+    .title{
+        font-size: 2.5rem;
+    }
+    .about-picture{
+        height: 16rem;
+        width: 13rem;
+    }
+    .contact-content-container {
+        margin: 0;
+    }
+    .contact-info > a{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:400px){
+    .title{
+        font-size: 2rem;
+    }
+    .experience-subtitle{
+        font-size: 1.2rem;
+    }
+    .Experience-container-h3{
+        font-size: 1rem;
+    }
+    .article-containers p{
+        font-size: 0.8rem;
+    }
+    .project-picture{
+        height: 14rem;
+        width: 15rem;
+        
+    }
+    .project-subtitle{
+        font-size: 1.4rem;
+        margin: 0.7rem;
+    }
+    .pfp{
+        width: 250px;
+    }
+}
