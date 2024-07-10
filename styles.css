@@ -375,6 +375,7 @@ article{
 }
 
 .project-picture{
+    object-fit: cover;
     height: 17rem;
     width: 18rem;
     border-radius: 2rem;
