@@ -1,0 +1,190 @@
+
+@media(max-width:1200px) {
+    
+    #desktop-nav{
+        display: none;
+    }
+
+    #humberger-nav{
+        display: flex;
+    }
+    
+    .profile {
+        flex-direction: column;
+        gap: 0;
+        
+    }
+    #profile{
+        margin-bottom: 6rem;
+    }
+
+    #about , #experience{
+        margin-bottom: 15rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    section{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .pfp{
+        width: 300px;
+    }
+
+    .about-containers{
+        flex-direction: column;
+    }
+    .about-header-text {
+        margin-bottom: 1rem;
+    }
+    
+    .about-picture{
+        height: 14rem;
+        width: 14rem;
+    }
+    
+
+    .project-picture{
+        height: 15rem;
+        width:15rem;
+    }
+    
+    
+    
+
+}
+
+@media(max-width:800px){
+    .title{
+        font-size: 2.5rem;
+    }
+    .about-picture{
+        height: 14rem;
+        width: 13rem;
+    }
+    .contact-content-container {
+        margin: 0;
+    }
+    .contact-info > a{
+        font-size: 1rem;
+    }
+    
+    #contact{
+        height: 60vh;
+    }
+
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .about-picture {
+        height: 14rem;
+        width: 13rem;
+    }
+
+    .contact-content-container {
+        margin: 0;
+    }
+
+    .contact-info > a {
+        font-size: 1rem;
+    }
+
+    #contact {
+        height: auto; /* Allow height to adjust dynamically */
+        padding: 2rem 0; /* Add more padding for better separation */
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem; /* Reduce gap between project cards */
+    }
+
+    .project-card {
+        width: 90%; /* Make cards smaller to fit better on small screens */
+        max-width: 350px; /* Further limit the maximum width */
+        padding: 1rem; /* Reduce padding inside the cards */
+        margin-bottom: 2rem; /* Ensure there's space below the project card */
+        
+    }
+
+    .project-picture {
+        width: 80%;
+        height: auto;
+        max-height: 250px; /* Reduce max height to avoid oversized images */
+        object-fit: cover; /* Ensure the image fills the card without distortion */
+    }
+
+    .contact-content-container {
+        margin-top: 3rem; /* Further adjust margin to balance space between sections */
+    }
+
+    #contact {
+        padding: 1rem 0; /* Reduce padding to make better use of space */
+    }
+}
+
+
+@media(max-width:500px){
+    .Experience-container-div{
+        flex-direction: column;
+    }
+    
+    section{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .about-picture{
+        height: 10rem;
+        width: 10rem;
+    }
+    #contact{
+        height: 60vh;
+    }
+
+    nav{
+        height: 6rem;
+    }
+    
+}
+
+@media(max-width:567px){
+    .contact-nav-links{
+        flex-direction: column;
+    }
+    #about{
+        height: 115vh;
+    }
+}
+
+
+@media(max-width:400px){
+    .title{
+        font-size: 2rem;
+    }
+    .experience-subtitle{
+        font-size: 1.2rem;
+    }
+    .Experience-container-h3{
+        font-size: 1rem;
+    }
+    .article-containers p{
+        font-size: 0.8rem;
+    }
+    
+    .project-subtitle{
+        font-size: 1.4rem;
+        margin: 0.7rem;
+    }
+    .pfp{
+        width: 250px;
+    }
+    
+}
